@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="create_move.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_traverse.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>Base\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>Base\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Base\RenderIsurface</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\configs\configs.cpp">
+      <Filter>Menu framework\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\checkbox.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\color.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\combobox.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\groupbox.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\keybind.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\slider.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\text.cpp">
+      <Filter>Menu framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>Menu framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\settings.cpp">
+      <Filter>Menu framework</Filter>
+    </ClCompile>
+    <ClCompile Include="check_crc.cpp">
+      <Filter>Base\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Base\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="user_cmd.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="client_entity.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Base\RenderIsurface</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\configs\configs.h">
+      <Filter>Menu framework\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>Menu framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\settings.h">
+      <Filter>Menu framework</Filter>
+    </ClInclude>
+    <ClInclude Include="i_input_system.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IAPPSystem.h">
+      <Filter>Base\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="check_crc.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Base\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="callvfunc.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu framework">
+      <UniqueIdentifier>{74daf853-767d-4a05-ac3a-b3021eed7f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{a22db4eb-de17-40fa-a214-71051d7d550f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\SDK">
+      <UniqueIdentifier>{1d1947ad-ca7a-46a9-9cf1-58ca614b9aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Misc">
+      <UniqueIdentifier>{2560be19-0bef-40d7-a917-d9266ce9d647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Engine">
+      <UniqueIdentifier>{e38fa1ab-f6b8-4b6f-a14e-ee83b63a5960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{c5f419d6-4416-4115-81c1-9e362e1281c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{b5646124-9ddc-47a5-88c8-4246c7032b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\RenderIsurface">
+      <UniqueIdentifier>{71821883-d2c3-47a7-b200-a6483ec03b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu framework\configs">
+      <UniqueIdentifier>{1ad3240e-8531-4f04-8bae-8292c35bfcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu framework\controls">
+      <UniqueIdentifier>{b43bebc7-54cf-4e16-ad28-d4e9c932804b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadInput">
+      <UniqueIdentifier>{68061aa6-08af-4e3b-a6bd-cae3f1f05cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Cliententity">
+      <UniqueIdentifier>{d0d3c0c9-062f-4bc7-9f4c-613078220037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
